@@ -1,4 +1,4 @@
-PADDING = 15
+PADDING = 10
 REVERSE = "\033[;7m"
 RESET = "\033[0m"
 

@@ -67,7 +67,7 @@ def display_weather_info(weather_data, imperial=False):
     weather_symbol, color = _select_weather_display_params(weather_id)
     change_color(color)
 
-    print(f"\t{weather_symbol}", end=" ")
+    print(f"\t{weather_symbol:^{style.PADDING}}", end=" ")
     print(f"\t{description.capitalize():^{style.PADDING}}", end=" ")
     change_color(style.RESET)
 
