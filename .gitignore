@@ -1,4 +1,4 @@
-.gitignore
+.gitignore/
 .secrets.ini
 .DS_Store
 __pycache__/
